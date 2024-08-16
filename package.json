@@ -1,0 +1,28 @@
+{
+  "name": "best_twitch_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "compile": "tsc",
+    "start": "nodemon client/bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "socket.io-client": "^4.7.5",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/node": "^22.2.0",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.1.0"
+  }
+}
